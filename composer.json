@@ -1,0 +1,17 @@
+{
+    "name": "dungquyen/mvc-training",
+    "autoload": {
+        "psr-4": {
+            "App\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dungbv",
+            "email": "dungbv2201@gmail.com"
+        }
+    ],
+    "require": {
+
+    }
+}

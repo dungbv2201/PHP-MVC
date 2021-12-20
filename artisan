@@ -1,0 +1,14 @@
+<?php
+
+switch ($_SERVER["argv"][1]){
+	case "serve":
+		runServe();
+		break;
+	default:
+		return;
+}
+
+function runServe(){
+	echo "Starting...";
+	exec("php -S localhost:2201 -t public/");
+}
